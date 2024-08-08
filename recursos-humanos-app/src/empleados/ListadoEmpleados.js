@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function ListadoEmpleados() {
 
-    const urlBase="http://localhost:8080/rh-app/empleados";
+    const urlBase="";
 
     const [empleados, setEmpleados] = useState([])
 
