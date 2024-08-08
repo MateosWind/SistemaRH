@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 export default function EditarEmpleado() {
-  const urlBase = "http://localhost:8080/rh-app/empleados";
+  const urlBase = "";
   let Navegacion = useNavigate();
   const { id } = useParams();
 
